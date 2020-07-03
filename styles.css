@@ -1,0 +1,57 @@
+
+
+
+body {
+    background-color: blueviolet;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font: 15px Orbitron;
+    text-align: justify;
+    margin: 10px;
+}
+
+img {
+    opacity: 0.5;
+}
+
+/*div[title="CONTENT"] {*/
+/*    background-image: url("images/png-the-tao-of-zen-ensō-jaltepec-the-spirit-of-zen-buddhism-monochrome-black-religion-alan-watts-clipart.png");*/
+/*}*/
+
+div[title="CONTENT"]{
+    border-width: 0px;
+}
+
+div[title="IRL"] {
+    transform: scale(0.8);
+}
+
+div[title="SPRT"] {
+    transform: scale(0.8);
+}
+
+div[title="CBR"] {
+    transform: scale(1.1);
+}
+
+div {
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
